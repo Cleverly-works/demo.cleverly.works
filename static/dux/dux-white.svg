@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  DUX brand mark — white-on-transparent variant.
+  For use on dark / coloured backgrounds (e.g. the navy suggestion rail).
+
+  ⚠ PLACEHOLDER: this is a vector approximation of the official DUX
+  bulb-with-sparkles logo. The user-provided PNG/SVG should replace
+  this file at the same path. Component code references it as
+  /static/dux/dux-white.svg — keep that filename so swapping the asset
+  is a no-code change.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Bulb glass envelope -->
+  <path
+    d="M50 14c-15.46 0-28 12.54-28 28 0 9.32 4.55 17.57 11.55 22.66V70a4 4 0 004 4h24.9a4 4 0 004-4v-5.34C73.45 59.57 78 51.32 78 42c0-15.46-12.54-28-28-28z"
+    fill="#FFFFFF"
+  />
+  <!-- Base ridges -->
+  <rect x="38.5" y="76" width="23" height="4" rx="1" fill="#FFFFFF"/>
+  <rect x="40" y="82" width="20" height="4" rx="1" fill="#FFFFFF"/>
+  <!-- Filament tip -->
+  <path d="M44 87 L56 87 L50 94 Z" fill="#FFFFFF"/>
+  <!-- Sparkles inside the bulb (use bulb-bg colour to "punch out") -->
+  <g fill="#1E2B5E" data-role="sparkle-cutouts">
+    <!-- Big 4-point star -->
+    <path d="M52 38 L55 47 L64 50 L55 53 L52 62 L49 53 L40 50 L49 47 Z"/>
+    <!-- Smaller star top-left -->
+    <path d="M40 32 L42 36 L46 38 L42 40 L40 44 L38 40 L34 38 L38 36 Z"/>
+    <!-- Tiny star top-right -->
+    <path d="M58 30 L59.5 32.5 L62 34 L59.5 35.5 L58 38 L56.5 35.5 L54 34 L56.5 32.5 Z"/>
+  </g>
+</svg>
